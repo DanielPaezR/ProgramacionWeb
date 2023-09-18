@@ -1,0 +1,48 @@
+.main-listapan{
+    display: grid;
+    grid-column: 3;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    background-image: url("../assets/fondo.avif");
+    background-size: cover;
+}
+.fondoCasilla{
+    width: 350px;
+    justify-content: center;
+    background-color: rgba(224, 150, 81, 0.473);
+    border: none;
+    border-radius: 8%;
+}
+.casillas{
+    margin-left: 20px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;   
+}
+.imagenes{
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    border: 5px;
+    border-color: rgba(105, 219, 240, 0.473);
+    border-style:inset;
+}
+.nombres{
+    color: white;
+    margin-top: 20px;
+    background-color: rgba(216, 109, 9, 0.664);
+    padding-left: 120px;
+    border: none;
+    border-radius: 8%;
+    
+}
+.precios{
+    color: white;
+    margin-top: 3px;
+    background-color: rgba(224, 121, 25, 0.548);
+    padding-left: 120px;
+    border: none;
+    border-radius: 8%;
+    margin-bottom: 10px;
+}

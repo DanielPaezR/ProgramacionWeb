@@ -1,0 +1,15 @@
+.btnIniciar{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    background-color: rgba(240, 106, 17, 0.582);
+    font-size: 25px;
+    color: white;
+    border: none;
+    border-radius: 8%;
+    cursor: pointer;
+}
+.btnIniciar:hover{
+    background-color: rgba(197, 90, 18, 0.705);
+}

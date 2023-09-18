@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Montserrat:wght@200&family=Quicksand&display=swap');
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../assets/fondo.avif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardPrincipal{
+    width: 620px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #d8b5557e;
+    border: none;
+    border-radius: 8%;
+}
+
+.cardTittle{
+    width: 620px;
+    height: 90px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.cardTittle h1{
+    font-family: 'Fuggles', cursive;
+    color: white;
+    font-size: 130px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-left: 80px;
+    justify-content: center;
+
+}
+.cardForm{
+    width: 620px;
+    height: 500px;
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+}
+.cardForm h2{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.cardForm h3{
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.inputs{
+    height: 50px;
+    width: 520px;   
+    font-size: 25px;
+    color: white;
+    margin-left: 40px;
+    border: none;
+    border-radius: 5%;
+    padding-left: 20px;
+    background-color: #cfbf307e;
+} 
+.inputs::placeholder {
+     color: rgb(255, 255, 255);
+}
+
